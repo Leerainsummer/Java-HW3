@@ -1,0 +1,24 @@
+電子三甲 113360114 李雨夏
+Java Homework3
+
+src/CH3：26個指定頁次範例（沿用HW2已完成的相同題目）。
+src/CH4：13個指定頁次範例。
+src/CH5：22個指定頁次範例，p06、pa、pb、pc保留分檔與套件教學。
+src/EXTRA：3個類別庫範例：成績排序、UTF-8讀寫、網址解析。
+共64個含main方法的範例。檔名中的P數字對應投影片頁碼，跨頁類別已補齊。
+為避免同章Car等類別衝突，輔助類別加上頁碼；P06/P08/P10/P14保留分檔。
+講義第五章Car.show()把汽油量印成num的筆誤已改為gas。
+
+Eclipse：File > Import > General > Existing Projects into Workspace，選擇HW3。
+在要執行的Java檔案按右鍵 > Run As > Java Application。
+CH3 P34/P37/P38/P40/P43及CH5 P34需要在Console輸入資料。
+CH5 P19刻意陣列越界、P32刻意拋出自訂例外；出現紅字是講義預期效果。
+CH5 P35產生test1.txt；P36讀取同檔案，專案已附範例內容。
+CH5 P40需在Run Configurations > Arguments > Program arguments填入test3.txt；
+也可直接使用專案附的CH5_P40.launch。未給參數將提示後以代碼1結束。
+檔案範例的Working directory請設為本專案資料夾（Eclipse預設）。
+CH5 P46/P47約需5秒；執行緒輸出順序可能不同。
+CH5 P52刻意未同步，最終合計可能錯誤，也可能剛好300；P55使用synchronized，正確合計300。
+EXTRA第二個範例會在專案目錄產生study-log.txt。
+
+作業PDF另要求個人心得、讀書會資料、GitHub與PDF報告，這些不包含在本程式專案中。
